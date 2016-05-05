@@ -1,0 +1,177 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>travel for joy</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+     
+        <script src="js/jquery.min.js"></script>
+    <link href="css/style1.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/myStyle.css" rel="stylesheet" typr="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet" type="text/css">
+       <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/responsiveslides.css">
+    <script>
+
+        $(function () {
+            // Slideshow 1
+            $("#slider1").responsiveSlides({
+                maxwidth: 2500,
+                speed: 600
+            });
+        });
+    </script>
+    <script>
+        $(function () {
+            $("#datepicker").datepicker();
+        });
+    </script>
+
+</head>
+
+<body>
+    <!---start-header---->
+    <div class="header">
+        <div class="wrap">
+            <div class="logo">
+                <a href="index.html"><img src="images/titel.png"></a>
+            </div>
+            <div class="top-nav">
+                <ul>
+                    <li class="active"><a href="index.html">Home</a></li>
+                </ul>
+            </div>
+            <div class="clear"> </div>
+        </div>
+    </div>
+    <!---End-header---->
+    <!--start-image-slider---->
+    <div class="image-slider">
+        <!-- Slideshow 1 -->
+        <ul class="rslides" id="slider1">
+            <li><img src="images/s1.jpg" alt=""> </li>
+            <li><img src="images/s2.jpg" alt=""></li>
+            <li><img src="images/s3.jpg" alt=""></li>
+            <!--					       <li><img src="images/slider1.jpg" alt=""></li>-->
+            <!-- Slideshow 2 -->
+        </ul>
+    </div>
+    <!--End-image-slider---->
+    <!---End-wrap---->
+    <div class="clear"> </div>
+    <!---start-content---->
+    <div class="content">
+        <div class="content_top">
+            <div class="wrap">
+                <h1><a href="#">WELCOME</a></h1>
+                <p >All the leading hotels of the world can be booked within a second.</p>
+                <form>
+                    <div class="ui-widget">
+                        <label>Destination</label>
+                        <select id="destination">
+                            <option value = ""></option>
+                            <option value="Alps">Alps</option>
+                            <option value="Indian Ocean">Indian Ocean</option>
+                            <option value="Carribean">Carribean Ocean</option>
+                            <option value="Europ">Europ</option>
+                            <option value="Africa">Africa</option>
+                            <option value="North and Central America">North and central America</option>
+                            <option value="South America">South America</option>
+                            <option value="Asia">Asia</option>
+                        </select>
+
+
+                        <lable>Date:
+                            <input type="date" id="datepicker">
+                        </lable>
+
+                        <label>Comfort level</label>
+                        <select id="comfortLevel">
+                            <option value = ""></option>
+                            <option value="3">3 Star</option>
+                            <option value="4">4 Star</option>
+                            <option value="5">5 Star</option>
+                        </select>
+                    </div>
+                    <div class="ui-widget">
+                        <label>Activities</label>
+                        <select id="activities">
+                            <option value = ""></option>
+                            <option value="Water Skeeing">Water Skeeing</option>
+                            <option value="Tennis">Tennis</option>
+                            <option value="Spa">Spa</option>
+                            <option value="Scuba Diving">Scuba Diving</option>
+                            <option value="Diving">Diving</option>
+                            <option value="Hicking">Hicking</option>
+                            <option value="Snow Skeeing">Snow Skeeing</option>
+                            <option value="Kids Club">Kids Club</option>
+                        </select>
+                        <label>Price</label>
+                        <select id="price">
+                            <option value = ""></option>
+                            <option value="1800">1800</option>
+                            <option value="2000">2000</option>
+                            <option value="2500">2500</option>
+                            <option value="3000">3000</option>
+                            <option value="3500">3500</option>
+                        </select>
+                    </div>
+                    <div class="ui-widget">
+                        <br>
+                        <input type="button" id="search" value="Search" />
+                    </div>
+                </form>
+            </div>
+
+            <!--            search-->
+            <div class="specials">
+                <div id="favourites">
+                    <div class="specials-heading">
+                    <h3>FAVOURITES</h3>
+                </div>
+                </div>
+                <div class="specials-heading">
+                    <h3>SEARCH RESULTS</h3>
+                </div>
+                <div class="searchResults">
+                  
+                </div>
+                <div class="clear"> </div>
+                <p id="newp"> Search Your Favourite Hotels</p>
+            </div>
+
+        </div>
+        <!---End-content---->
+        <div class="clear"> </div>
+        <!---start-footer---->
+        <div class="footer">
+            <div class="wrap">
+                <div class="footer-grids">
+                    <div class="footer-grid footer-lastgrid">
+                        <h3>CONTACT US</h3>
+                        <p>for more details</p>
+                        <div class="footer-grid-address">
+                            <p>Tel.800-255-9999</p>
+                            <p>Fax: 1234 568</p>
+                    <p>Email:mail@example.com</p>
+                        </div>
+                    </div>
+                    <div class="clear"> </div>
+                </div>
+            </div>
+        </div>
+        <!---End-footer---->
+        <div class="clear"> </div>
+        <div class="copy-right">
+            <p>© Jeshreen Balraj</p>
+        </div>
+       
+        <script src="js/responsiveslides.min.js"></script>
+        <script src="js/myscript.js"></script>
+        <script src="js/jquer-ui.js"></script>
+        <script src="js/search.js"></script>
+    </div>
+</body>
+
+</html>

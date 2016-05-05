@@ -1,0 +1,55 @@
+.custom-combobox {
+    position: relative;
+    display: inline-block;
+  }
+  .custom-combobox-toggle {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin-left: -1px;
+    padding: 0;
+ }
+  .custom-combobox-input {
+    margin: 0;
+    padding: 5px 10px;
+    
+  }
+.searchResults{
+    position: relative;
+    float:left;
+	width:70%;
+	margin:0 auto;
+    padding-left: 50px;
+    padding-right: 5px;
+    padding-top: 0px;
+    margin-left: 5px;
+	transition:all .2s linear;
+	-moz-transition:all .2s linear;/* firefox */
+	-webkit-transition:all .2s linear; /* safari and chrome */
+	-o-transition:all .2s linear; /* opera */
+	-ms-transition:all .2s linear;
+ }
+#favourites{
+    float:right;
+    position: absolute;
+    box-shadow: 0 0 15px 2px #666;
+    width: 29%;
+    height:80%;
+    margin:0 auto;
+    margin-left:70%;
+    transition:all .2s linear;
+	-moz-transition:all .2s linear;/* firefox */
+	-webkit-transition:all .2s linear; /* safari and chrome */
+	-o-transition:all .2s linear; /* opera */
+	-ms-transition:all .2s linear;
+    border-color: black;
+}
+#nbutton{
+    border-radius: 5px;
+    color: #cc99ff;
+    margin-bottom: 15px;
+}
+#newp{
+    padding-bottom: 15px;
+    color: black
+}
